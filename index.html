@@ -3,13 +3,43 @@
   <head>
     <meta charset="UTF-8">
     <title>Playground - JavaScript 101</title>
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   </head>
+
+  <style>
+    li {
+      display: inline-block;
+      margin: 24px;
+    }
+
+    span {
+      display: block;
+    }
+  </style>
+
   <body>
     <p style="margin-top: 40vh; text-align: center; font: normal 24px monospace;">
       Open the console 🤓
     </p>
 
+
+    <div class="container text-center d-flex justify-content-center">
+      <form action="" id="searchForm">
+        <label for="search">Search:</label>
+        <input type="text" name="search" id="searchInput">
+      </form>
+    </div>
+
+    <div class="">
+      <ul class="list-inline" id="movies">
+
+      </ul>
+    </div>
+
     <!-- Add some HTML in here -->
+
+    <button id="clickBtn">Click me!</button>
 
     <script src="main.js"></script>
   </body>
